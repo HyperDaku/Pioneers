@@ -1,0 +1,48 @@
+.firstr {
+    width: 450px;
+    height: 450px;
+    margin-left: 200px;
+
+    float: left;
+    justify-content: space-between;
+
+}
+
+.secondr {
+    width: 450px;
+    height: 450px;
+    margin-left: 210px;
+    margin-top: 150px;
+
+    float: left;
+    justify-content: space-between;
+
+}
+
+h1 {
+    font-family: 'Laila', sans-serif;
+    text-align: center;
+}
+
+
+h3 {
+    margin-left: 210px;
+    margin-top: 150px;
+}
+
+
+
+
+.firstr:hover {
+    box-shadow: 6px 6px 15px black;
+
+}
+
+.secondr:hover {
+    box-shadow: 6px 6px 15px black;
+
+}
+
+body {
+    background: lightblue;
+}

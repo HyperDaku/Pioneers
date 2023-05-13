@@ -1,0 +1,470 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: linear-gradient(90deg, rgba(5, 0, 89, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 116, 140, 1) 100%);
+}
+
+.column {
+	width: 25%;
+	height: 20vh;
+	border: 1px solid black;
+	float: left;
+}
+
+.body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.wrapper {
+	margin: 150px auto;
+	width: 70%;
+}
+
+.img-container {
+	width: 4080vw;
+	height: 1500vh;
+	animation: imageslider 10s infinite;
+	position: relative;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.text-box {
+	color: lightsteelblue;
+}
+
+.text-box h2 {
+	font-size: 40px;
+}
+
+.text-box p {
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+}
+
+.ftsection {
+	display: flex;
+	clear: both;
+	height: 20vh;
+}
+
+.ftitem {
+	width: 30vw;
+	padding-top: 2%;
+}
+
+img.slider {
+	width: 1360px;
+	height: 600p;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+@media all and (max-width:992px) {
+	.column {
+		width: 50%;
+	}
+}
+
+/* @media all and (max-width:700px) {
+	body {
+		background: pink;
+	}
+} */
+
+@keyframes imageslider {
+	0% {
+		left: 0%;
+	}
+
+	50% {
+		left: -1360px;
+	}
+
+	75% {
+		left: -2720px;
+	}
+}
+
+.table {
+	/* border: 1px solid black; */
+	background-color: #6C9BCF;
+	border-collapse: collapse;
+	width: 50%;
+	height: 25vh;
+	margin-left: 70px;
+}
+
+tr.talign {
+	text-align: center;
+}
+
+/* td,
+th {
+	border: 1px solid black;
+} */
+
+/*NAVBAR*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+/*MAIN*/
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav {
+	width: 100%;
+	height: 75px;
+	background-color: #6C9BCF;
+	line-height: 75px;
+	padding: 0px 80px;
+}
+
+nav .logo {
+	float: left;
+}
+
+nav .logo p {
+	font-size: 34px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0px 20px;
+}
+
+/*CHECK*/
+
+.checkbtn {
+	color: #fff;
+	font-size: 25px;
+	cursor: pointer;
+	float: right;
+	display: none;
+	user-select: none;
+	margin: 25 3px;
+}
+
+nav ul li a:hover {
+	color: #000000;
+}
+
+nav ul .active {
+	color: #000000;
+}
+
+input[type=checkbox] {
+	display: none;
+}
+
+
+/*STRETCHY*/
+
+
+@media screen and (max-width: 990px) {
+	.menu {
+		display: none;
+		position: relative;
+		background-color: teal;
+		right: 0;
+		left: 0;
+		text-align: center;
+		padding: 16px 0;
+		border: 1px solid red;
+	}
+
+	.menu li:hover {
+		display: inline-block;
+		background-color: #4c9e9e;
+		transition: 0.3s ease;
+	}
+
+	nav {
+		padding: 0px 50px;
+	}
+
+	.checkbtn {
+		display: block;
+	}
+
+	nav .logo p {
+		font-size: 30px;
+	}
+
+	nav ul {
+		width: 100%;
+		height: 100vh;
+		background-color: #53694c;
+		position: fixed;
+		left: -100;
+		text-align: center;
+		transition: 0.5s ease;
+	}
+
+	nav ul li {
+		display: block;
+		margin: 60px 0px;
+		line-height: 20px;
+	}
+
+	input[type=checkbox]:checked~.menu {
+		display: block;
+	}
+
+	.background {
+		background-image: url('ict.jpg');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: calc(100vh - 75px);
+	}
+
+
+
+}
+
+.PHP img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.PHP {
+	margin-left: 100px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
+	justify-content: space-between;
+	background: #19376D;
+}
+
+.PHP {
+	color: #F1F6F5;
+	text-align: center;
+	font-family: 'Laila', sans-serif;
+}
+
+.pioneers, .text-color{
+	text-align: center;
+	color: white;
+	font-family: 'Jost', sans-serif;
+}
+
+.PHP:hover {
+	background: #205295;
+}
+
+.PHP {
+	margin-bottom: 100px;
+}
+
+.examples img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+.examples {
+	/* margin-left: 200px; */
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
+	/* justify-content: space-between; */
+	background: #19376D;
+}
+
+.examples {
+	color: #F1F6F5;
+	text-align: center;
+	font-family: 'Laila', sans-serif;
+}
+
+.examples,
+.heading {
+	text-align: center;
+	color: black;
+	font-family: 'Jost', sans-serif;
+
+}
+
+.examples:hover {
+	background: #6C9BCF;
+	/* color: white; */
+}
+.pre-parents{
+	display: flex;
+	justify-content: space-around;
+}
+
+.preview1 {
+	width: 40%;
+	/* display: inline-block; */
+	/* margin-left: 250px;
+	margin-bottom: 50px; */
+}
+
+.preview2 {
+	width: 40%;
+	/* float: left; */
+	/* margin-left: 200px;
+	margin-bottom: 100px; */
+}
+
+.examples:hover:hover {
+	box-shadow: 6px 6px 15px black;
+}
+
+.examples:hover {
+	box-shadow: 6px 6px 15px;
+}
+
+.divbody {
+	margin: 0;
+	padding: 0;
+}
+
+.divbody {
+	/* background: #3333; */
+	font-family: 'Jost', sans-serif;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.cover {
+	width: 800px;
+	height: 500px;
+	/* background: #000; */
+	margin-top: 50px;
+	display: flex;
+}
+
+.box {
+	margin: 10px;
+	width: 800px;
+	height: 500px;
+	color: white;
+}
+
+.img {
+	width: 300px;
+	height: 300px;
+}
+
+.Section  {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	/* background: #00ff00; */
+}
+
+.Section .waves {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background: url(../Image/wave.png);
+	background-size: 1000px 100px;
+}
+
+.Section .waves.wave1 {
+	animation: animate 20s linear infinite;
+	z-index: 1000;
+	opacity: 1;
+	animation-delay: 0.3s;
+	bottom: 0;
+}
+
+.Section .waves.wave2 {
+	animation: animate2 15s linear infinite;
+	z-index: 999;
+	opacity: 0.5;
+	animation-delay: 0.5s;
+	bottom: 10px;
+}
+
+.Section .waves.wave3 {
+	animation: animate 20s linear infinite;
+	z-index: 998;
+	opacity: 0.2;
+	animation-delay: -2s;
+	bottom: 0;
+}
+
+.Section .waves.wave4 {
+	animation: animate2 5s linear infinite;
+	z-index: 997;
+	opacity: 0.7;
+	animation-delay: -5s;
+	bottom: 20px;
+}
+
+@keyframes animate {
+	0% {
+		background-position-x: 0;
+	}
+
+	100% {
+		background-position-x: 1000px;
+	}
+}
+
+@keyframes animate2 {
+	0% {
+		background-position-x: 0;
+	}
+
+	100% {
+		background-position-x: -1000px;
+	}
+}
+.BSOTW{
+	color: white;
+}
+.text-box2 {
+	color: #6C9BCF;
+	font-size: 30px;
+}
+
+/* @media all and (max-width:578px) {
+    .Section{
+		bottom: -850px;
+	}
+} */

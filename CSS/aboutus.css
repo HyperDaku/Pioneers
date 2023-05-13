@@ -1,0 +1,42 @@
+div img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+div{
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    float: left;
+    justify-content: space-between;
+    border: 1px ;
+    
+    background:#19376D;
+   
+    box-shadow: 5px 5px 15px ;
+    
+}
+h1{
+    color: #F1F6F5;
+    text-align: center;
+    font-family:  'Laila', sans-serif;
+}
+
+h3{
+    text-align: center;
+    color: #F1F6F5;
+    font-family: 'Jost', sans-serif;
+
+}
+
+div:hover{
+    background:#205295;
+    
+    
+}
+html{
+    background: #0B2447;
+}
